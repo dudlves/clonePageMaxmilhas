@@ -1,0 +1,125 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#body{
+  margin-top: 10px;
+  padding: 0 24px;
+}
+
+
+#navigation{
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+
+#hidden-menu{
+  border-radius: 30px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 2px 10px;
+} 
+
+#menu {
+  display: flex;
+  overflow-x: auto; 
+
+}
+
+#menu button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding-right: 20px;
+  padding-top: 15px;
+  white-space: nowrap;  
+}
+
+#menu button img {
+  padding: 10px;
+
+}
+#menu button svg {
+  margin-right: 5px; 
+  padding: 10px;
+
+}
+
+#radar{
+  background-color: #de550b;
+  border-radius: 30px;
+}
+
+#Banner-principal > h2{
+  padding: 30px 0px;
+}
+
+#Banner-principal > div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 5px;
+  margin-top: 10px;
+  margin-bottom: 10pX;
+
+}
+
+#Banner-principal > img{
+  width: 530px;
+  border-radius: 25px;
+  padding-top: 15px;
+}
+
+#Travel-cards-section > h3{
+  font-size: 15px;
+  padding-top: 30px;
+}
+
+#Travel-cards-section > h2{
+  font-size: 30px;
+  padding-bottom: 20px;
+  
+}
+
+#cards{
+  display: grid; /* Define uma grade */
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card{
+  width: 258px;
+  border: 1px solid rgb(212, 212, 212);
+  margin-right: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+
+}
+.card > img{
+  width: 258px;
+  border-radius: 20px 20px 0 0; 
+}
+
+.card > h5{
+  padding: 10px;
+  font-size: 20px;
+}
+
+.card > h4{
+  padding: 10px;
+  font-size: 20px;
+  color: gray;
+
+
+}
+
