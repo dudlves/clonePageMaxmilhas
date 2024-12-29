@@ -4,12 +4,14 @@
 }
 #body{
   margin-top: 10px;
-  padding: 0 24px;
+
 }
 
+#banner{
+  padding: 0 17px;
+}
 
 #navigation{
-  background-color: aqua;
   display: flex;
   justify-content: space-between;
   align-items: center
@@ -18,7 +20,6 @@
 
 #hidden-menu{
   border-radius: 30px;
-  background-color: aqua;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -28,7 +29,6 @@
 #menu {
   display: flex;
   overflow-x: auto; 
-
 }
 
 #menu button {
@@ -45,8 +45,8 @@
 
 #menu button img {
   padding: 10px;
-
 }
+
 #menu button svg {
   margin-right: 5px; 
   padding: 10px;
@@ -58,8 +58,13 @@
   border-radius: 30px;
 }
 
+#Banner-principal{
+  padding: 0 17px;
+}
+
 #Banner-principal > h2{
   padding: 30px 0px;
+
 }
 
 #Banner-principal > div{
@@ -80,6 +85,11 @@
   border-radius: 25px;
   padding-top: 15px;
 }
+
+#Travel-cards-section{
+  padding: 0 17px;
+}
+
 
 #Travel-cards-section > h3{
   font-size: 15px;
@@ -119,7 +129,170 @@
   padding: 10px;
   font-size: 20px;
   color: gray;
+}
 
+#advertisement{
+  width: 530px;
+  margin: 30px 0px;
+  padding: 0 17px;
+}
+
+#advertisement1{
+  background-color: #98db82;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border-radius: 25px;
 
 }
 
+#advertisement1 > img{
+  border-radius: 15px;
+  margin-left: 40px;
+  margin-right: 20px;
+
+}
+
+#advertisement > div > div > h5{
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+#advertisement > div > div > h6{
+  font-size: 15px;
+}
+
+#alert{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #aeb9c9;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+#alert > img {
+  padding-right: 10px;
+}
+
+#information{
+  background-color: #f6f8fc;
+}
+
+#infor-first-part{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+#infor-first-part > h4{
+  font-size: 25px;
+}
+
+#infor-second-part{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#infor-second-part > div > h5{
+  font-size: 17px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+#infor-second-part > div > h6{
+  font-size: 15px;
+  padding-right: 150px;
+}
+
+#infor-second-part > div > p{
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.line{
+  width: 90%;
+  height: 1px;
+  background-color: #94a3b8; 
+  margin: 20px 30px;
+}
+
+#infor-third-part{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#infor-third-part > h4{
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+#infor-third-part > button{
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #97da82;
+  border: none;
+  margin: 20px 0px;
+}
+
+
+#experience{
+  padding: 0 50px;
+  
+}
+
+#experience > h4{
+  font-size: 25px;
+  padding: 30px 0px;
+}
+
+#first-experience{
+  display: grid; /* Define uma grade */
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card-experience{
+  display: flex;
+  border: 1px solid #aeb9c9;
+  width: 150px;
+  border-radius: 20px;
+  padding: 20px 30px;
+  
+}
+
+.card-experience > h5{
+  font-size: 17px;
+  padding: 0 20px;
+}
+
+#about-first-part{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+#about-second-part{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#about-second-part > div > h5{
+  font-size: 17px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+#about-second-part > div > h6{
+  font-size: 15px;
+  padding-right: 150px;
+}
+
+#about-second-part > div > p{
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
