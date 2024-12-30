@@ -1,7 +1,13 @@
+import PropTypes from 'prop-types';
+
 import './Button.css';
 
-function Button() {
-  return <button></button>;
+function Button({texto}) {
+  return <button className="custom-button">{texto}</button>;
 }
+
+Button.propTypes = {
+  texto: PropTypes.string.isRequired,
+};
 
 export default Button;

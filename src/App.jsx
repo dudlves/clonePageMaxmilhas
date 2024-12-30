@@ -1,6 +1,8 @@
 
 import './index.css'
-import '../public/Logo.webp'
+import './media-query.css'
+import Button from './Components/Button';
+
 
 function App() {
  return (
@@ -8,35 +10,35 @@ function App() {
       <div id='body'>
         <div id='banner'>
           <div id='navigation'>
-            <img src="Logo.webp" alt="" width="150" height="25"/>
+            <img src="/Logo.png" alt="" width="150" height="25"/>
             <button id='hidden-menu'>
               <img src="menu.png" alt="" width="15" height="15"/>
               <svg width="23" height="25" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.763 16.91L15.413 16.031C15.236 15.585 14.961 15.185 14.609 14.859L14.545 14.8C13.991 14.286 13.263 14 12.507 14H7.49302C6.73702 14 6.00902 14.286 5.45402 14.799L5.39002 14.859C5.03802 15.185 4.76402 15.585 4.58602 16.031L4.23602 16.91" stroke="currentColor"></path><path d="M12.4749 5.44701C13.8417 6.81385 13.8417 9.02992 12.4749 10.3968C11.108 11.7636 8.89197 11.7636 7.52513 10.3968C6.15829 9.02992 6.15829 6.81385 7.52513 5.44701C8.89197 4.08017 11.108 4.08017 12.4749 5.44701" stroke="currentColor" ></path><path d="M16.364 3.63604C19.8787 7.15076 19.8787 12.8492 16.364 16.3639C12.8493 19.8787 7.1508 19.8787 3.6361 16.3639C0.121381 12.8492 0.121381 7.15074 3.6361 3.63604C7.15082 0.12132 12.8493 0.12132 16.364 3.63604" stroke="currentColor"></path></svg>
             </button>
           </div>
-          
           <div id='menu'>
             <button>
-              <img src="radar.png" alt="" width="20" height="20"/>
+              <img  className= "img-menu" src="radar.png" alt="" width="20" height="20"/>
               MaxRadar
               <div id='radar'>
+                <img src="raio1.png" alt="" width="17" height="17" />
                 <p>Em alta</p>
               </div>
             </button>
             <button>
-            <img src="aviao.png" alt=""  width="20" height="20"/>
+            <img className= "img-menu" src="aviao.png" alt=""  width="20" height="20"/>
               Passagens aéreais
             </button>
             <button>
-              <img src="cama.png" alt=""  width="20" height="20"/>
+              <img className= "img-menu" src="cama.png" alt=""  width="20" height="20"/>
               Hotéis
             </button>
             <button>
-              <img src="venda.png" alt="" width="20" height="20" /> 
+              <img className= "img-menu" src="venda.png" alt="" width="20" height="20" /> 
               Vender milhas
             </button>
             <button>
-              <img src="fogo.png" alt=""  width="20" height="20"/>
+              <img className= "img-menu" src="fogo.png" alt=""  width="20" height="20"/>
               MaxOfertas
             </button>
             <button>
@@ -152,9 +154,7 @@ function App() {
           <div id='infor-third-part'>
             <h4>Ainda com dúvidas?</h4>
             <p>Nossa Central de Ajuda está pronta para atender você!</p>
-            <button>
-              Acessar Central de Ajuda
-            </button>
+            <Button texto="Acessar Central de Ajuda"/>
           </div>
         </div>
         <div id='experience'>
@@ -175,7 +175,7 @@ function App() {
           </div>
         </div>
         <div id='about'>
-          <img src="" alt="" />
+          <img src="familia.jpg" alt="" />
           <div>
             <div id='about-first-part'>
               <p>Vantagens</p>
@@ -188,19 +188,19 @@ function App() {
               <h6>Você diz para onde quer ir, informa a data da viagem e ainda pode filtrar suas preferências de voos e hotéis.</h6>
             </div>
             <div>
-              <svg width="32" height="32" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M21.9474 28.7518L19.2861 20.2505C19.0048 19.3531 19.9234 18.5505 20.7754 18.9478L28.7128 22.6518C29.6541 23.0905 29.4954 24.4745 28.4794 24.6891L25.2114 25.3811L23.9981 28.7905C23.6501 29.7691 22.2568 29.7425 21.9474 28.7518Z" stroke="currentColor"></path><path d="M26.6693 14.8438H21.1066C19.0239 14.8438 17.3359 13.1558 17.3359 11.0731C17.3359 10.0731 17.7333 9.11313 18.4399 8.40646L21.7119 5.13446" stroke="currentColor"></path><path d="M6.27671 23.4278L8.64604 19.8745C9.07538 19.2305 9.79671 18.8438 10.57 18.8438C11.446 18.8438 12.246 18.3491 12.638 17.5651L12.8154 17.2105C13.1407 16.5598 13.1407 15.7931 12.8154 15.1425L11.3047 12.1225C10.914 11.3385 10.1127 10.8438 9.23671 10.8438H3.35938" stroke="currentColor"></path><path d="M14.668 2.8438C8.0253 2.8438 2.66797 8.20113 2.66797 14.8438C2.66797 21.4865 8.0253 26.8438 14.668 26.8438" stroke="currentColor"></path><path d="M26.668 14.8438C26.668 8.20113 21.3106 2.8438 14.668 2.8438" stroke="currentColor"></path></svg>
+              <svg width="32" height="32" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" clipRule="evenodd" d="M21.9474 28.7518L19.2861 20.2505C19.0048 19.3531 19.9234 18.5505 20.7754 18.9478L28.7128 22.6518C29.6541 23.0905 29.4954 24.4745 28.4794 24.6891L25.2114 25.3811L23.9981 28.7905C23.6501 29.7691 22.2568 29.7425 21.9474 28.7518Z" stroke="currentColor"></path><path d="M26.6693 14.8438H21.1066C19.0239 14.8438 17.3359 13.1558 17.3359 11.0731C17.3359 10.0731 17.7333 9.11313 18.4399 8.40646L21.7119 5.13446" stroke="currentColor"></path><path d="M6.27671 23.4278L8.64604 19.8745C9.07538 19.2305 9.79671 18.8438 10.57 18.8438C11.446 18.8438 12.246 18.3491 12.638 17.5651L12.8154 17.2105C13.1407 16.5598 13.1407 15.7931 12.8154 15.1425L11.3047 12.1225C10.914 11.3385 10.1127 10.8438 9.23671 10.8438H3.35938" stroke="currentColor"></path><path d="M14.668 2.8438C8.0253 2.8438 2.66797 8.20113 2.66797 14.8438C2.66797 21.4865 8.0253 26.8438 14.668 26.8438" stroke="currentColor"></path><path d="M26.668 14.8438C26.668 8.20113 21.3106 2.8438 14.668 2.8438" stroke="currentColor"></path></svg>
               <h5>Mais inteligência</h5>
               <h6>Com soluções inteligentes e personalizadas, combinamos voos com os melhores preços e possibilitamos descontos extras em hotéis.</h6>
             </div>
             <div>
-              <svg width="32" height="32" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M24 28.1771H8C5.79067 28.1771 4 26.3865 4 24.1771V8.17712C4 5.96779 5.79067 4.17712 8 4.17712H24C26.2093 4.17712 28 5.96779 28 8.17712V24.1771C28 26.3865 26.2093 28.1771 24 28.1771Z" stroke="currentColor"></path><path d="M18.25 13.1771H21.9993V16.9265" stroke="currentColor"></path><path d="M22 13.1771L16.7493 18.4278L13.7493 15.4278L10 19.1771" stroke="currentColor"></path></svg>
+              <svg width="32" height="32" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" clipRule="evenodd" d="M24 28.1771H8C5.79067 28.1771 4 26.3865 4 24.1771V8.17712C4 5.96779 5.79067 4.17712 8 4.17712H24C26.2093 4.17712 28 5.96779 28 8.17712V24.1771C28 26.3865 26.2093 28.1771 24 28.1771Z" stroke="currentColor"></path><path d="M18.25 13.1771H21.9993V16.9265" stroke="currentColor"></path><path d="M22 13.1771L16.7493 18.4278L13.7493 15.4278L10 19.1771" stroke="currentColor"></path></svg>
               <h5>Comparação e compra</h5>
               <h6>Compare tarifas de voos e quartos de hotéis de maneira prática, escolha a melhor opção e compre sem precisar ter milhas.</h6>
             </div>
             </div>
           </div>
         </div>
-          <div></div>
+      
       </div>
  
 

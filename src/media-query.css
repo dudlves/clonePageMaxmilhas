@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+   #Banner-principal > img {
+    width: 100%;      
+    height: auto;     
+    max-width: 100%;   
+    padding-top: 10px; 
+  }
+
+  #advertisement{
+    width: 100%;
+    max-width: 730px;
+    margin: 30px 0px;
+    padding: 0 17px;
+  }
+
+  #advertisement > div > div > h5{
+    font-size: 35px;
+    padding-bottom: 10px;
+  }
+  
+  #advertisement > div > div > h6{
+    font-size: 20px;
+  }
+
+  .card-experience{
+    width: 100%; 
+    max-width: auto;
+  }
+
+  #about > img {
+    max-width: 680px;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 894px) {
+  body {
+    background-color: aqua;
+  }
+   
+  #advertisement{
+    width: 100%;
+    max-width: 730px;
+    margin: 30px 0px;
+    padding: 0 17px;
+  }
+
+  #infor-second-part{
+    display: flex;
+  }
+  #infor-second-part > div > h5{
+    font-size: 17px;
+  }
+  
+  #infor-second-part > div > h6{
+    padding-right: 80px;
+  }
+  #infor-second-part > div > p{
+    display: flex;
+    align-items: center;
+  }
+
+  .card-experience{
+    width: 100%; 
+    max-width: auto;
+  }
+
+  #about > img {
+    max-width: auto;
+    display: flex;
+  }
+
+  #about-second-part{
+    display: flex;
+  }
+  #about-second-part > div{
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 894px) and (max-width: 1200px){
+  #banner{
+    padding: 0 80px;
+  }
+
+  #Banner-principal{
+    padding: 0 80px;
+  }
+
+  #Travel-cards-section{
+    padding: 0 80px;
+  }
+  
+  #cards{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+  }
+
+  #advertisement{
+    width: 100%;
+    max-width: 950px;
+    margin: 30px 0px;
+    padding: 0 80px;
+  }
+
+  #information{
+    padding: 0 80px;
+  }
+
+  #experience{
+    padding: 0 80px;
+  }
+
+  #about{
+    padding: 0 80px;
+  }
+
+  #first-experience{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+  }
+
+  #infor-second-part{
+    display: flex;
+  }
+
+  #about > img {
+    max-width: auto;
+    display: flex;
+  }
+
+  #about-second-part{
+    display: flex;
+  }
+
+  #about-second-part > div{
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  #banner{
+    padding: 0 200px;
+  }
+
+  #Banner-principal{
+    padding: 0 200px;
+  }
+
+  #Travel-cards-section{
+    padding: 0 200px;
+  }
+  
+  #cards{
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+  }
+
+  #advertisement{
+    width: 100%;
+    max-width: 950px;
+    margin: 30px 0px;
+    padding: 0 200px;
+  }
+
+  #information{
+    padding: 0 200px;
+  }
+
+  #experience{
+    padding: 0 200px;
+  }
+
+  #about{
+    padding: 0 200px;
+  }
+
+  #first-experience{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+  }
+
+  #infor-second-part{
+    display: flex;
+  }
+
+  #about > img {
+    max-width: auto;
+    display: flex;
+  }
+
+  #about-second-part{
+    display: flex;
+  }
+
+  #about-second-part > div{
+    padding-right: 20px;
+  }
+}

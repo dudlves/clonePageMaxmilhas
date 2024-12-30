@@ -2,9 +2,9 @@
   padding: 0px;
   margin: 0px;
 }
+
 #body{
   margin-top: 10px;
-
 }
 
 #banner{
@@ -17,13 +17,14 @@
   align-items: center
 }
 
-
 #hidden-menu{
   border-radius: 30px;
   display: flex;
   align-items: center;
   gap: 10px;
   padding: 2px 10px;
+  background-color: #ffffff;
+  border: 1px solid #778599;
 } 
 
 #menu {
@@ -43,19 +44,23 @@
   white-space: nowrap;  
 }
 
-#menu button img {
+.img-menu {
   padding: 10px;
 }
 
 #menu button svg {
   margin-right: 5px; 
   padding: 10px;
-
 }
 
 #radar{
+  display: flex;
+  align-items: center;
   background-color: #de550b;
+  margin-left: 5px;
+  padding: 3px 7px;
   border-radius: 30px;
+  color: #ffffff;
 }
 
 #Banner-principal{
@@ -64,7 +69,6 @@
 
 #Banner-principal > h2{
   padding: 30px 0px;
-
 }
 
 #Banner-principal > div{
@@ -77,11 +81,12 @@
   gap: 5px;
   margin-top: 10px;
   margin-bottom: 10pX;
-
 }
 
 #Banner-principal > img{
-  width: 530px;
+  width: 100%;
+  height: auto;
+  max-width: 530px;     
   border-radius: 25px;
   padding-top: 15px;
 }
@@ -89,7 +94,6 @@
 #Travel-cards-section{
   padding: 0 17px;
 }
-
 
 #Travel-cards-section > h3{
   font-size: 15px;
@@ -99,24 +103,24 @@
 #Travel-cards-section > h2{
   font-size: 30px;
   padding-bottom: 20px;
-  
 }
 
 #cards{
-  display: grid; /* Define uma grade */
+  display: grid; 
   grid-template-columns: repeat(2, 1fr);
+  gap: 20px; 
 }
 
 .card{
-  width: 258px;
+  width: 100%; 
   border: 1px solid rgb(212, 212, 212);
-  margin-right: 20px;
   border-radius: 20px;
   margin-bottom: 20px;
-
 }
+
 .card > img{
-  width: 258px;
+  width: 100%;
+  height: auto;
   border-radius: 20px 20px 0 0; 
 }
 
@@ -132,9 +136,11 @@
 }
 
 #advertisement{
+
   width: 530px;
   margin: 30px 0px;
   padding: 0 17px;
+  
 }
 
 #advertisement1{
@@ -144,14 +150,12 @@
   align-items: center;
   padding: 10px;
   border-radius: 25px;
-
 }
 
 #advertisement1 > img{
   border-radius: 15px;
   margin-left: 40px;
   margin-right: 20px;
-
 }
 
 #advertisement > div > div > h5{
@@ -206,6 +210,7 @@
 #infor-second-part > div > h6{
   font-size: 15px;
   padding-right: 150px;
+  color: #8d96a3;
 }
 
 #infor-second-part > div > p{
@@ -231,18 +236,8 @@
   padding-bottom: 5px;
 }
 
-#infor-third-part > button{
-  padding: 10px 20px;
-  border-radius: 10px;
-  background-color: #97da82;
-  border: none;
-  margin: 20px 0px;
-}
-
-
 #experience{
   padding: 0 50px;
-  
 }
 
 #experience > h4{
@@ -251,17 +246,20 @@
 }
 
 #first-experience{
-  display: grid; /* Define uma grade */
+  display: grid; 
   grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 100%;
 }
 
 .card-experience{
   display: flex;
   border: 1px solid #aeb9c9;
-  width: 150px;
+  width: 100%;
+  margin-bottom: 20px;
   border-radius: 20px;
-  padding: 20px 30px;
-  
+  padding: 35px 30px;  
+  box-sizing: border-box;
 }
 
 .card-experience > h5{
@@ -269,11 +267,28 @@
   padding: 0 20px;
 }
 
+#about{
+  background-color: #f6f8fc;
+  
+}
+
+#about > img{
+  width: 100%;
+  height: auto;
+  max-width: 530px;     
+  border-radius: 70px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
 #about-first-part{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
+}
+
+#about-first-part > h4{
+  font-size: 28px;
 }
 
 #about-second-part{
@@ -282,14 +297,14 @@
 }
 
 #about-second-part > div > h5{
-  font-size: 17px;
+  font-size: 20px;
   padding-top: 15px;
   padding-bottom: 5px;
 }
 
 #about-second-part > div > h6{
-  font-size: 15px;
-  padding-right: 150px;
+  font-size: 17px;
+  margin-bottom: 30px;
 }
 
 #about-second-part > div > p{
