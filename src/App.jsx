@@ -200,6 +200,21 @@ function App() {
             </div>
           </div>
         </div>
+        <div id='interaction'>
+          <div id='download'>
+            <h4>Já baixou o nosso app?</h4>
+            <p>Receba ofertas do seu jeito e descontos exclusivos para você viver viajando.</p>
+            <input type="text" name="" id="" />
+            <input type="text" name="" id="" />
+          </div>
+          
+          <div id='leave email'>
+            <h4>Quem deixa o e-mail viaja ao máximo</h4>
+            <p>Aproveite nossas promoções e dicas para curtir mais experiências de viagem!</p>
+            <input type="text" name="" id="" />
+            <Button/>
+          </div>
+        </div>
       
       </div>
  
