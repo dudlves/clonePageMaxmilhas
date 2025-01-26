@@ -311,3 +311,72 @@
   padding-top: 15px;
   padding-bottom: 30px;
 }
+
+#download{
+  border: 1px solid #aeb9c9;
+  border-radius: 20px;
+  padding: 15px 15px;  
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  max-width: 570px;     
+  margin: 0 auto;
+}
+
+#download > div{
+  border: 1px solid #aeb9c9;
+  border-radius: 15px;
+  padding: 15px 15px;  
+  box-sizing: border-box;
+  margin: 10px 0px;
+
+}
+#download > div > p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#leave-email{
+  border: 1px solid #aeb9c9;
+  border-radius: 20px;
+  padding: 15px 15px;  
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  max-width: 570px;     
+  margin: 10px auto;
+
+}
+
+#leave-email > div{
+  display: flex;
+  flex-direction: column;
+
+}
+#leave-email > div > input{
+  border: 1px solid #aeb9c9;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+
+}
+
+#leave-email > div > button{
+  margin: 10px 0px;
+
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 300px;     
+  margin: 10px auto;
+
+}
+
+footer > div > div > img{
+padding: 10px;
+}
