@@ -1,17 +1,31 @@
 import './Menu.css';
 function Menu() {
+  window.addEventListener("scroll", function () {
+    let menu = document.getElementById("menu");
+    if (window.scrollY > 55) { 
+      menu.style.position = "fixed";
+      menu.style.top = "0";
+    } else {
+      menu.style.position = "relative";
+    }
+  });
   return (
     <div id="banner">
       <div id="navigation">
         <img src="/Logo.png" alt="" width="150" height="25" />
-        <button id="hidden-menu">
-          <img src="menu.png" alt="" width="15" height="15" />
-          <svg width="23" height="25" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M15.763 16.91L15.413 16.031C15.236 15.585 14.961 15.185 14.609 14.859L14.545 14.8C13.991 14.286 13.263 14 12.507 14H7.49302C6.73702 14 6.00902 14.286 5.45402 14.799L5.39002 14.859C5.03802 15.185 4.76402 15.585 4.58602 16.031L4.23602 16.91" stroke="currentColor"></path>
-            <path d="M12.4749 5.44701C13.8417 6.81385 13.8417 9.02992 12.4749 10.3968C11.108 11.7636 8.89197 11.7636 7.52513 10.3968C6.15829 9.02992 6.15829 6.81385 7.52513 5.44701C8.89197 4.08017 11.108 4.08017 12.4749 5.44701" stroke="currentColor"></path>
-            <path d="M16.364 3.63604C19.8787 7.15076 19.8787 12.8492 16.364 16.3639C12.8493 19.8787 7.1508 19.8787 3.6361 16.3639C0.121381 12.8492 0.121381 7.15074 3.6361 3.63604C7.15082 0.12132 12.8493 0.12132 16.364 3.63604"stroke="currentColor"></path>
-          </svg>
-        </button>
+        <div id='search'>
+            <button className='unset-button'>Ajuda</button>
+            <button className='unset-button'>Area do cliente</button>
+          <button id="hidden-menu">
+            <img src="menu.png" alt="" width="15" height="15" />
+            <svg width="23" height="25" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15.763 16.91L15.413 16.031C15.236 15.585 14.961 15.185 14.609 14.859L14.545 14.8C13.991 14.286 13.263 14 12.507 14H7.49302C6.73702 14 6.00902 14.286 5.45402 14.799L5.39002 14.859C5.03802 15.185 4.76402 15.585 4.58602 16.031L4.23602 16.91" stroke="currentColor"></path>
+              <path d="M12.4749 5.44701C13.8417 6.81385 13.8417 9.02992 12.4749 10.3968C11.108 11.7636 8.89197 11.7636 7.52513 10.3968C6.15829 9.02992 6.15829 6.81385 7.52513 5.44701C8.89197 4.08017 11.108 4.08017 12.4749 5.44701" stroke="currentColor"></path>
+              <path d="M16.364 3.63604C19.8787 7.15076 19.8787 12.8492 16.364 16.3639C12.8493 19.8787 7.1508 19.8787 3.6361 16.3639C0.121381 12.8492 0.121381 7.15074 3.6361 3.63604C7.15082 0.12132 12.8493 0.12132 16.364 3.63604"stroke="currentColor"></path>
+            </svg>
+          </button>
+        </div>
+      
       </div>
       <div id="menu">
         <button>

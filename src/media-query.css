@@ -36,10 +36,7 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 894px) {
-  body {
-    background-color: aqua;
-  }
-   
+
   #advertisement{
     width: 100%;
     max-width: 730px;
@@ -81,9 +78,14 @@
 }
 
 @media screen and (min-width: 894px) and (max-width: 1200px){
-  #banner{
+  #menu{
     padding: 0 80px;
   }
+
+  #navigation{
+    padding: 0 80px;
+  }
+
 
   #Banner-principal{
     padding: 0 80px;
@@ -144,7 +146,11 @@
 }
 
 @media screen and (min-width: 1200px){
-  #banner{
+  #menu{
+    padding: 0 200px;
+  }
+
+  #navigation{
     padding: 0 200px;
   }
 
