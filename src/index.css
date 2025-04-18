@@ -46,7 +46,7 @@
   padding-top: 15px;
 }
 
-#Travel-cards-section{
+/* #Travel-cards-section{
   padding: 0 17px;
 }
 
@@ -64,9 +64,9 @@
   display: grid; 
   grid-template-columns: repeat(2, 1fr);
   gap: 20px; 
-}
+} */
 
-.card{
+/* .card{
   width: 100%; 
   border: 1px solid rgb(212, 212, 212);
   border-radius: 20px;
@@ -88,7 +88,7 @@
   padding: 10px;
   font-size: 20px;
   color: gray;
-}
+} */
 
 #advertisement{
 

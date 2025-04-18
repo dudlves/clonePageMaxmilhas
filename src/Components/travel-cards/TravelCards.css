@@ -1,0 +1,19 @@
+#Travel-cards-section{
+  padding: 0 17px;
+}
+
+#Travel-cards-section > h3{
+  font-size: 15px;
+  padding-top: 30px;
+}
+
+#Travel-cards-section > h2{
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+#cards{
+  display: grid; 
+  grid-template-columns: repeat(1, 1fr); /* Mobile padrão */
+  gap: 20px; 
+}

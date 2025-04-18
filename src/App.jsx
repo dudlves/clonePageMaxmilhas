@@ -1,7 +1,9 @@
 import "./index.css";
-import "./media-query.css";
 import Button from "./Components/button/Button";
 import Menu from "./Components/menu/Menu";
+import TravelCards from "./Components/travel-cards/TravelCards";
+import "./media-query.css";
+
 
 function App() {
   return (
@@ -20,55 +22,7 @@ function App() {
           </div>
           <img src="main_banner_home_dezembro.webp" alt="" />
         </div>
-        <div id="Travel-cards-section">
-          <h3>Viaje mais, viva as férias ao máximo</h3>
-          <h2>Ofertas para você viajar mais</h2>
-          <div id="cards">
-            <div className="card">
-              <img src="card1.webp" alt="" />
-              <h5>Bora embarcar nesse desafio?</h5>
-              <h4>Faça parte da lista VIP e ganhe até 50% OFF</h4>
-            </div>
-            <div className="card">
-              <img src="card2.webp" alt="" />
-              <h5>Receba ofertas personalizadas</h5>
-              <h4>Sua viagem fica mais fácil com o MaxRadar</h4>
-            </div>
-            <div className="card">
-              <img src="card3.webp" alt="" />
-              <h5>Dê asas aos sonhos</h5>
-              <h4>
-                Proporcione viagens inesquecíveis para quem você ama com
-                MaxPresente
-              </h4>
-            </div>
-            <div className="card">
-              <img src="card4.webp" alt="" />
-              <h5>Partiu Férias?</h5>
-              <h4>Diárias a partir de R$ 190,00</h4>
-            </div>
-            <div className="card">
-              <img src="card5.webp" alt="" />
-              <h5>São Paulo</h5>
-              <h4>A partir de R$ 144,01</h4>
-            </div>
-            <div className="card">
-              <img src="card6.webp" alt="" />
-              <h5>Miami</h5>
-              <h4>A partir de R$ 1390,65</h4>
-            </div>
-            <div className="card">
-              <img src="card7.webp" alt="" />
-              <h5>Rio de Janeiro</h5>
-              <h4>A partir de R$ 194,29</h4>
-            </div>
-            <div className="card">
-              <img src="card8.webp" alt="" />
-              <h5>Punta Cana</h5>
-              <h4>A partir de R$ 1426,74</h4>
-            </div>
-          </div>
-        </div>
+        <TravelCards></TravelCards>
         <div id="advertisement">
           <div id="advertisement1">
             <img src="advertisement.jpg" alt="" />

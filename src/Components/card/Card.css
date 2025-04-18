@@ -1,0 +1,23 @@
+.card{
+  width: 100%; 
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.card > img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0; 
+}
+
+.card > h5{
+  padding: 10px;
+  font-size: 20px;
+}
+
+.card > h4{
+  padding: 10px;
+  font-size: 20px;
+  color: gray;
+}
