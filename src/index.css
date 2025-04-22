@@ -135,7 +135,7 @@
 #alert > img {
   padding-right: 10px;
 }
-
+/* 
 #information{
   background-color: #f6f8fc;
 }
@@ -171,9 +171,9 @@
 #infor-second-part > div > p{
   padding-top: 15px;
   padding-bottom: 30px;
-}
+} */
 
-.line{
+/* .line{
   width: 90%;
   height: 1px;
   background-color: #94a3b8; 
@@ -189,7 +189,7 @@
 #infor-third-part > h4{
   font-size: 20px;
   padding-bottom: 5px;
-}
+} */
 
 #experience{
   padding: 0 50px;
