@@ -5,7 +5,7 @@ import './TravelCards.css'
 function TravelCards(){
   return(
     <div id="Travel-cards-section">
-       <h3>Viaje mais, viva as férias ao máximo</h3>
+       <p>Viaje mais, viva as férias ao máximo</p>
       <h2>Ofertas para você viajar mais</h2>
       <div id="cards">
       <Card

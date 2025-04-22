@@ -13,11 +13,14 @@
 
 .card > h5{
   padding: 10px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .card > h4{
-  padding: 10px;
-  font-size: 20px;
-  color: gray;
+  padding: 0px 10px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  color: #475569;
+  font-weight: 300;
+
 }

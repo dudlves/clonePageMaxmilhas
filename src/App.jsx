@@ -2,6 +2,7 @@ import "./index.css";
 import Button from "./Components/button/Button";
 import Menu from "./Components/menu/Menu";
 import TravelCards from "./Components/travel-cards/TravelCards";
+
 import "./media-query.css";
 
 
