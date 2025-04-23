@@ -1,8 +1,7 @@
 import "./Information.css";
 import Button from "../button/Button";
-import { Settings2 } from 'lucide-react';
-import { Ticket } from 'lucide-react';
-import { Wallet } from 'lucide-react';
+import { Settings2, Ticket, Wallet } from 'lucide-react';
+
 
 function Informtion(){
   return(

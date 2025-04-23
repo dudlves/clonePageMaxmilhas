@@ -3,6 +3,7 @@ import Button from "./Components/button/Button";
 import Menu from "./Components/menu/Menu";
 import TravelCards from "./Components/travel-cards/TravelCards";
 import Informtion from "./Components/information/Information";
+import About from "./Components/about/About";
 
 import "./media-query.css";
 
@@ -96,120 +97,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div id="about">
-          <img src="familia.jpg" alt="" />
-          <div>
-            <div id="about-first-part">
-              <p>Vantagens</p>
-              <h4>Sabe por que a Maxmilhas é o máximo?</h4>
-            </div>
-            <div id="about-second-part">
-              <div>
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 33"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M14.6667 20.1771H9.33333C6.38781 20.1771 4 22.5649 4 25.5105V26.8438"
-                    stroke="currentColor"
-                  ></path>
-                  <circle
-                    cx="14.6654"
-                    cy="9.51046"
-                    r="5.33333"
-                    stroke="currentColor"
-                  ></circle>
-                  <circle
-                    cx="23.2603"
-                    cy="22.2512"
-                    r="4.74075"
-                    stroke="currentColor"
-                  ></circle>
-                  <path
-                    d="M19.9057 25.6034L17.332 28.1771"
-                    stroke="currentColor"
-                  ></path>
-                </svg>
-                <h5>Pesquisa fácil</h5>
-                <h6>
-                  Você diz para onde quer ir, informa a data da viagem e ainda
-                  pode filtrar suas preferências de voos e hotéis.
-                </h6>
-              </div>
-              <div>
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 33"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M21.9474 28.7518L19.2861 20.2505C19.0048 19.3531 19.9234 18.5505 20.7754 18.9478L28.7128 22.6518C29.6541 23.0905 29.4954 24.4745 28.4794 24.6891L25.2114 25.3811L23.9981 28.7905C23.6501 29.7691 22.2568 29.7425 21.9474 28.7518Z"
-                    stroke="currentColor"
-                  ></path>
-                  <path
-                    d="M26.6693 14.8438H21.1066C19.0239 14.8438 17.3359 13.1558 17.3359 11.0731C17.3359 10.0731 17.7333 9.11313 18.4399 8.40646L21.7119 5.13446"
-                    stroke="currentColor"
-                  ></path>
-                  <path
-                    d="M6.27671 23.4278L8.64604 19.8745C9.07538 19.2305 9.79671 18.8438 10.57 18.8438C11.446 18.8438 12.246 18.3491 12.638 17.5651L12.8154 17.2105C13.1407 16.5598 13.1407 15.7931 12.8154 15.1425L11.3047 12.1225C10.914 11.3385 10.1127 10.8438 9.23671 10.8438H3.35938"
-                    stroke="currentColor"
-                  ></path>
-                  <path
-                    d="M14.668 2.8438C8.0253 2.8438 2.66797 8.20113 2.66797 14.8438C2.66797 21.4865 8.0253 26.8438 14.668 26.8438"
-                    stroke="currentColor"
-                  ></path>
-                  <path
-                    d="M26.668 14.8438C26.668 8.20113 21.3106 2.8438 14.668 2.8438"
-                    stroke="currentColor"
-                  ></path>
-                </svg>
-                <h5>Mais inteligência</h5>
-                <h6>
-                  Com soluções inteligentes e personalizadas, combinamos voos
-                  com os melhores preços e possibilitamos descontos extras em
-                  hotéis.
-                </h6>
-              </div>
-              <div>
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 33"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M24 28.1771H8C5.79067 28.1771 4 26.3865 4 24.1771V8.17712C4 5.96779 5.79067 4.17712 8 4.17712H24C26.2093 4.17712 28 5.96779 28 8.17712V24.1771C28 26.3865 26.2093 28.1771 24 28.1771Z"
-                    stroke="currentColor"
-                  ></path>
-                  <path
-                    d="M18.25 13.1771H21.9993V16.9265"
-                    stroke="currentColor"
-                  ></path>
-                  <path
-                    d="M22 13.1771L16.7493 18.4278L13.7493 15.4278L10 19.1771"
-                    stroke="currentColor"
-                  ></path>
-                </svg>
-                <h5>Comparação e compra</h5>
-                <h6>
-                  Compare tarifas de voos e quartos de hotéis de maneira
-                  prática, escolha a melhor opção e compre sem precisar ter
-                  milhas.
-                </h6>
-              </div>
-            </div>
-          </div>
-        </div>
+        <About></About>
         <div id="interaction">
           <div id="download">
             <h3>Já baixou o nosso app?</h3>

@@ -1,0 +1,48 @@
+#about{
+  background-color: #f6f8fc;
+}
+
+#imgFamilia{
+  padding-top: 40px;
+}
+
+#about > div > img{
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+#about-first-part{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-first-part > h4{
+  font-size: 25px;
+}
+
+#about-second-part{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#about-second-part > div > h5{
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+#about-second-part > div > h6{
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+#about-second-part > div > p{
+  padding-top: 15px;
+  padding-bottom: 30px;
+}

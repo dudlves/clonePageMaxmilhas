@@ -46,50 +46,6 @@
   padding-top: 15px;
 }
 
-/* #Travel-cards-section{
-  padding: 0 17px;
-}
-
-#Travel-cards-section > h3{
-  font-size: 15px;
-  padding-top: 30px;
-}
-
-#Travel-cards-section > h2{
-  font-size: 30px;
-  padding-bottom: 20px;
-}
-
-#cards{
-  display: grid; 
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px; 
-} */
-
-/* .card{
-  width: 100%; 
-  border: 1px solid rgb(212, 212, 212);
-  border-radius: 20px;
-  margin-bottom: 20px;
-}
-
-.card > img{
-  width: 100%;
-  height: auto;
-  border-radius: 20px 20px 0 0; 
-}
-
-.card > h5{
-  padding: 10px;
-  font-size: 20px;
-}
-
-.card > h4{
-  padding: 10px;
-  font-size: 20px;
-  color: gray;
-} */
-
 #advertisement{
 
   width: 530px;
@@ -135,61 +91,6 @@
 #alert > img {
   padding-right: 10px;
 }
-/* 
-#information{
-  background-color: #f6f8fc;
-}
-
-#infor-first-part{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 40px;
-}
-
-#infor-first-part > h4{
-  font-size: 25px;
-}
-
-#infor-second-part{
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-#infor-second-part > div > h5{
-  font-size: 17px;
-  padding-top: 15px;
-  padding-bottom: 5px;
-}
-
-#infor-second-part > div > h6{
-  font-size: 15px;
-  padding-right: 150px;
-  color: #8d96a3;
-}
-
-#infor-second-part > div > p{
-  padding-top: 15px;
-  padding-bottom: 30px;
-} */
-
-/* .line{
-  width: 90%;
-  height: 1px;
-  background-color: #94a3b8; 
-  margin: 20px 30px;
-}
-
-#infor-third-part{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#infor-third-part > h4{
-  font-size: 20px;
-  padding-bottom: 5px;
-} */
 
 #experience{
   padding: 0 50px;
@@ -221,7 +122,7 @@
   font-size: 17px;
   padding: 0 20px;
 }
-
+/* 
 #about{
   background-color: #f6f8fc;
   
@@ -265,7 +166,7 @@
 #about-second-part > div > p{
   padding-top: 15px;
   padding-bottom: 30px;
-}
+} */
 
 #download{
   border: 1px solid #aeb9c9;
