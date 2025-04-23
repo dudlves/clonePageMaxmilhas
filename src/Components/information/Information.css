@@ -10,8 +10,15 @@
   padding-top: 40px;
 }
 
+#infor-first-part > p{
+  font-size: 15px;
+  color: #1e2a3b;
+
+}
+
 #infor-first-part > h4{
-  font-size: 25px;
+  font-size: 20px;
+  color: #1e2a3b;
 }
 
 #infor-second-part{
@@ -19,21 +26,39 @@
   margin-top: 20px;
 }
 
+#infor-second-part > div{
+  margin-right: 20px;
+}
+
 #infor-second-part > div > h5{
-  font-size: 17px;
+  font-size: 15px;
   padding-top: 15px;
   padding-bottom: 5px;
+  color: #1e2a3b;
 }
 
 #infor-second-part > div > h6{
   font-size: 15px;
-  padding-right: 150px;
-  color: #8d96a3;
+  font-weight: 300;
+  color: #1e2a3b;
 }
 
-#infor-second-part > div > p{
+.botao-link {
+  font-size: 15px;
+  background: none;
+  border: none;
+  color: #1e2a3b;
   padding-top: 15px;
-  padding-bottom: 30px;
+  padding-bottom: 30px;  
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: color 0.3s ease;
+  display: inline-block; 
+}
+
+.botao-link:hover {
+  color: hotpink;
 }
 
 .line{
@@ -52,4 +77,10 @@
 #infor-third-part > h4{
   font-size: 20px;
   padding-bottom: 5px;
+  color: #1e2a3b;
+}
+
+#infor-third-part > p{
+  font-size: 15px;
+  color: #1e2a3b;
 }
