@@ -1,10 +1,9 @@
 import "./index.css";
-import Button from "./Components/button/Button";
 import Menu from "./Components/menu/Menu";
 import TravelCards from "./Components/travel-cards/TravelCards";
 import Informtion from "./Components/information/Information";
 import About from "./Components/about/About";
-
+import Footer from "./Components/footer/Footer";
 import "./media-query.css";
 
 
@@ -98,42 +97,7 @@ function App() {
           </div>
         </div>
         <About></About>
-        <div id="interaction">
-          <div id="download">
-            <h3>Já baixou o nosso app?</h3>
-            <p>
-              Receba ofertas do seu jeito e descontos exclusivos para você viver
-              viajando.
-            </p>
-            <div><p>Google Play</p></div>
-            <div><p>App Store</p></div>
-          </div>
-
-          <div id="leave-email">
-            <h3>Quem deixa o e-mail viaja ao máximo</h3>
-            <p>
-              Aproveite nossas promoções e dicas para curtir mais experiências
-              de viagem!
-            </p>
-            <div>
-            <input type="text" value="Digite seu e-mail" id="" />
-            <Button texto="Quero me cadastrar"/>
-            </div>
-          </div>
-          <footer>
-            <div>
-              <div>
-              <img src="icons8-facebook-52.png" alt="" width="25" height="25"/>
-              <img src="icons8-instagram-64.png" alt="" width="25" height="25"/>
-              <img src="icons8-linkedin-52.png" alt="" width="25" height="25"/>
-              <img src="icons8-twitter-bird-52.png" alt="" width="25" height="25"/>
-              <img src="icons8-youtube-logo-64.png" alt="" width="25" height="25"/>
-            </div>
-            <p>Rua Matias Cardoso, 169, 11º andar - Santo Agostinho, Belo Horizonte - MG, 30170-050</p>
-          
-            </div>
-          </footer>
-        </div>
+        <Footer></Footer>
       </div>
     </>
   );

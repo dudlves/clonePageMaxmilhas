@@ -1,0 +1,49 @@
+#interaction{
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+  align-items: stretch; 
+  gap: 20px; 
+}
+
+#download,
+#leave-email {
+  border: 1px solid #aeb9c9;
+  border-radius: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 570px;
+  display: flex;
+  flex-direction: column;
+}
+
+#download > div{
+  border: 1px solid #aeb9c9;
+  border-radius: 15px;
+  padding: 15px 15px;  
+  box-sizing: border-box;
+  margin: 5px 0px;
+}
+
+#download > div > p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#leave-email > div{
+  display: flex;
+  flex-direction: column;
+}
+
+#leave-email > div > input{
+  border: 1px solid #aeb9c9;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#leave-email > div > button{
+  margin: 10px 0px;
+}
