@@ -4,25 +4,25 @@ import Interaction from "../interaction/Interaction";
 
  
  
- function Footer(){
+function Footer(){
   return(
     <footer>
-              <Interaction></Interaction>
+      <Interaction></Interaction>
+      <div id='footer-menu'>
+        <p>Destinos, Passagens e Milhas</p>
+        <p>Belo Horizonte</p>
+        <p>São Paulo</p>
+        <p>Rio de Janeiro</p>
+        <p>Salvador</p>
+        <p>Fortaleza</p>
+        <p>Feriados</p>
+        <p>Promoção</p>
+        <p id='invisible-menu'>Mais Opções</p>
+      </div>
 
-            <div>
-              <div>
-              <img src="icons8-facebook-52.png" alt="" width="25" height="25"/>
-              <img src="icons8-instagram-64.png" alt="" width="25" height="25"/>
-              <img src="icons8-linkedin-52.png" alt="" width="25" height="25"/>
-              <img src="icons8-twitter-bird-52.png" alt="" width="25" height="25"/>
-              <img src="icons8-youtube-logo-64.png" alt="" width="25" height="25"/>
-            </div>
-            <p>Rua Matias Cardoso, 169, 11º andar - Santo Agostinho, Belo Horizonte - MG, 30170-050</p>
-          
-            </div>
-        </footer>
+    </footer>
   )
- }
+}
 
 
- export default Footer;
+export default Footer;

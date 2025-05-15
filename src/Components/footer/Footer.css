@@ -12,3 +12,17 @@
 footer > div > div > img{
 padding: 10px;
 } */
+
+#footer-menu{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+#footer-menu{
+font-size: 15px;
+}
+
+#invisible-menu{
+  padding-left: 30px;
+}
