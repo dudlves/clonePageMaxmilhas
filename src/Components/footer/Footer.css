@@ -1,18 +1,4 @@
 
-/* footer{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  max-width: 300px;     
-  margin: 10px auto;
-
-}
-
-footer > div > div > img{
-padding: 10px;
-} */
-
 #footer-menu{
   display: flex;
   gap: 15px;

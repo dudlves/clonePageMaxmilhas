@@ -1,5 +1,6 @@
 #Travel-cards-section{
-  padding: 0 17px;
+  width: 1000px;
+padding: 0px 40px
 }
 
 #Travel-cards-section > p{
@@ -13,7 +14,8 @@
 }
 
 #cards{
-  display: grid; 
-  grid-template-columns: repeat(1, 1fr); /* Mobile padrão */
-  gap: 20px; 
+ display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  background-color: aqua;
+  gap: 20px;
 }
