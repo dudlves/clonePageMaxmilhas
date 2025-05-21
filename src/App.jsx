@@ -97,7 +97,7 @@ function App() {
           </div>
         </div>
         <About></About>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </div>
     </>
   );

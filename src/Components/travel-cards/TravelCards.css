@@ -1,5 +1,6 @@
-#Travel-cards-section{
-  width: 1000px;
+/* #Travel-cards-section{
+  max-width: 850px;
+
 padding: 0px 40px
 }
 
@@ -16,6 +17,26 @@ padding: 0px 40px
 #cards{
  display: grid;
   grid-template-columns: repeat(2, 1fr); 
-  background-color: aqua;
+  gap: 10px;
+} */
+
+#Travel-cards-section{
+  max-width: 1000px;
+padding: 0px 40px
+}
+
+#Travel-cards-section > p{
+  font-size: 15px;
+  padding-top: 30px;
+}
+
+#Travel-cards-section > h2{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+#cards{
+ display: grid;
+  grid-template-columns: repeat(2, 1fr); 
   gap: 20px;
 }

@@ -45,7 +45,6 @@
   }
 
   #advertisement{
-    background-color: aqua;
     width: 100%;
     max-width: 730px;
     margin: 30px 0px;
@@ -154,6 +153,7 @@
 
 @media screen and (min-width: 1200px){
   #menu{
+    
     padding: 0 200px;
   }
 
@@ -166,14 +166,15 @@
   }
 
   #body #Travel-cards-section{
-    padding: 0 200px;
+    padding: 0 100px;
   }
   
-  #Travel-cards-section #cards{
+   #cards{
     display: grid; 
     grid-template-columns: repeat(4, 1fr);
     gap: 20px; 
   }
+  
 
   #advertisement{
     width: 100%;
